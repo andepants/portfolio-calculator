@@ -1,7 +1,7 @@
 
 # Portfolio Calculator
 
-A portfolio calculator for stocks. [Deployed Here](https://portfolio-calculator-v2.vercel.app/)
+A portfolio calculator for stocks. [Deployed Here](https://portfolio-calculator-sandy.vercel.app/)
 
 
 ## Author
