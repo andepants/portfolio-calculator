@@ -229,13 +229,13 @@ const InputForm = () => {
         <form className="input-form" onSubmit={handleSubmit}>
           <div className="input-form-column">
             <div className="input-field">
-              <label>Search symbols:</label>
+              <label>Search Stock Ticker Symbols:</label>
               <input
                 type="text"
                 value={symbolSearch}
                 onChange={handleSearchChange}
                 className="input-field-text"
-                placeholder="Search symbols..."
+                placeholder="Ex. AAPL, GOOGL, MSFT"
               />
               {filteredSymbols.length > 0 && (
                 <ul className="symbol-list">
@@ -259,7 +259,7 @@ const InputForm = () => {
                 value={currPercentage ? currPercentage : ""}
                 onChange={handlePercentageChange}
                 className="input-field-text"
-                placeholder="Percentage"
+                placeholder="Percentage of your Portfolio"
               />
             </div>
             <div className="input-field">
